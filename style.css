@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&family=Noto+Serif+TC:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    font-family:  'Fira Code', 'Noto Sans TC', sans-serif;
+}
+.cd {
+    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.clubs-cd {
+    border-radius: 0;
+    border: 0;
+}
+.clubs-cd .media {
+    border: 0;
+}
+.club-title {
+    margin: 2px;
+}
+.club-container {
+    margin: 3px;
+    padding: 0 8px;
+    max-height: 240px;
+    overflow: scroll;
+}
+.club-social {
+    margin: 10px 0;
+}
+.club-social img {
+    width: 36px;
+    height: 36px;
+}
+/* desktops */
+/* @media (min-width: 1200px) {
+    .bg {
+        float: left;
+        position: fixed;
+        top: calc(50% - 225px);
+        
+    }
+    .clubs-cd {
+        position: fixed;
+        top: calc(50% - 150px);
+        left: calc(40% - 120px); 
+        min-height: 250px;
+        max-width: 550px;
+        min-width: 550px;
+        box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.2);
+    }
+    .club-container {
+        min-height: 80px;
+    }
+} */
+
+/* tablets */
+@media (max-width: 1000.98px) {
+/* } */
+
+/* phones */
+/* @media (max-width: 767.98px) { */
+    .cd {
+        margin:0 10px;
+    }
+    .bg {
+        width: 100%;
+    }
+    .bg img {
+        width: 100%;
+    }
+    .clubs-cd {
+        width: 100%;
+    }
+    .club-social img {
+        width: 36px;
+        height: 36px;
+    }
+    .club-container {
+        max-height: 150px;
+        overflow: scroll;
+    }
+    #dis {
+        display:none;
+    }
+    
+}
